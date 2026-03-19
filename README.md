@@ -16,6 +16,7 @@
 --------------------------------------
 • git pull --rebase 
 — Fresh updates, minus the merge mess
+--------------------------------------
 
 
 
@@ -39,6 +40,7 @@
 
 
 → Debugging Detectives:
+
 • git log --oneline --graph --decorate
 — Visual crime scene
 --------------------------------------
@@ -53,10 +55,12 @@
 --------------------------------------
 • git fsck 
 — Check repo sanity
+--------------------------------------
 
 
 
 → Oops Fixers:
+
 • git restore . 
 — Undo accidental chaos
 --------------------------------------
@@ -71,10 +75,12 @@
 --------------------------------------
 • git reflog 
 — The ultimate undo time machine
+--------------------------------------
 
 
 
 → Collaboration Superpowers:
+
 • git fetch --all 
 — Pull updates, no drama
 --------------------------------------
@@ -89,10 +95,12 @@
 --------------------------------------
 • git cherry-pick {hash} 
 — Borrow just one commit from another branch
+--------------------------------------
 
 
 
 → Release Masters:
+
 • git tag -a v1.0 -m "first release" 
 — Stamp your moment
 --------------------------------------
@@ -107,10 +115,12 @@
 --------------------------------------
 • git archive --format=zip HEAD > http://release.zip 
 — Pack and ship your code
+--------------------------------------
 
 
 
 → Cleanup Crew:
+
 • git gc 
 — Garbage collector for your repo
 --------------------------------------
@@ -125,10 +135,12 @@
 --------------------------------------
 • git branch -d feature-x 
 — Remove dead branches
+--------------------------------------
 
 
 
 → Power User Tricks:
+
 • git config --global alias.s status 
 — Create your own shortcuts
 --------------------------------------
@@ -143,3 +155,4 @@
 --------------------------------------
 • git grep -n "text" 
 — Search inside the repo like a detective *
+--------------------------------------
